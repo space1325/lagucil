@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("photo-1500530855697-b586d89ba3ee.avif") center/cover no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    width: 450px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+    font-size: 16px;
+}
+
+#teks {
+    margin-top: 20px;
+    font-size: 15px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>euy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>lupakan joshua dengar ini aja cil</h2>
+
+    <button onclick="playSong()">Putar</button>
+
+    <p id="teks">
+        aku tau lagu ini tadi siang pas makan cil, lalu yang terlintas kamu juga harus dengar
+    </p>
+</div>
+
+<audio id="song" src="lagucut.mp3"></audio>
+
+<script>
+function playSong() {
+    const song = document.getElementById("song");
+    song.play();
+}
+</script>
+
+</body>
+</html>
